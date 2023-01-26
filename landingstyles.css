@@ -1,0 +1,85 @@
+/* landing styles */
+body {
+    margin: 0px 200px;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#one, footer {
+    background-color: #1F2937;
+}
+
+#one {
+    padding: 3px 150px 50px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#hero h1 {
+    font-weight: extra-bold;
+    margin-top: -10px;
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+#hero p, a, footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -45px;
+}
+
+nav a {
+    padding-left: 20px;
+}
+
+#upper-flex {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#hero {
+    display: flex;
+    margin: 100px 100px;
+    justify-content: space-between;
+    flex: 1 1 0;
+}
+
+#hero1 {
+    max-width: 425px;
+}
+
+
+#hero2 {
+    background-color: grey;
+    width: 600px;
+    height: 280px;
+}
+
+#hero2 p {
+    text-align: center;
+    padding: 110px 0;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #E5E7EB;
+    padding: 10px 30px;
+    border: none;
+    font-weight: bold;
+}
